@@ -7,7 +7,7 @@
   tasks:
     - name: Ping
       file:
-        path: /home/admin1/Erzhan_hi_test2022
+        path: /home/admin1/Erzhan_hi_test2023
         state: touch
         owner: admin1
         group: admin1
