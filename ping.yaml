@@ -11,4 +11,4 @@
         state: touch
         owner: admin1
         group: admin1
-        mode: '0644'
+        mode: '777'
