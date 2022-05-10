@@ -1,1 +1,9 @@
+---
+- name: Debug Example
+  hosts: all
+  become: yes
+  gather_facts: false
 
+  tasks:
+    - name: Ping
+      ping:
