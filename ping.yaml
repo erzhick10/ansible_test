@@ -6,4 +6,9 @@
 
   tasks:
     - name: Ping
-      ping:
+      file:
+        path: /admin1/home/erzhan
+        state: touch
+        owner: admin1
+        group: admin1
+        mode: '0644'
